@@ -4,6 +4,10 @@ var root = document.documentElement;
 function randomColor(color) {
     var color = Math.floor(Math.random()*16777215).toString(16);
     color = '#' + color;
+    if (color == '#181818') {
+        root.style.setProperty('--ButtonColor', '#ffffff');
+        root.style.setProperty('--TextColor', '#181818')
+    }
     root.style.setProperty('--BackgroundColor', color);
 }
 

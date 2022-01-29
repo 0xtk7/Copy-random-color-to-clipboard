@@ -1,5 +1,7 @@
 :root {
     --BackgroundColor: #fff;
+    --ButtonColor: #181818;
+    --TextColor: #fff;
 }
 
 body {
@@ -13,7 +15,8 @@ body {
 
 #rnd,
 #btn {
-    color: white;
+    background-color: var(--ButtonColor);
+    color: var(--TextColor);
     background: #181818;
     margin-top: 45%;
     width: 30%;
@@ -32,11 +35,6 @@ body {
     animation: hover 0.5s forwards;
 }
 
-/*
-#color {
-
-}
-*/
 @keyframes hover {
     100% {opacity: 0.8;}
 }
