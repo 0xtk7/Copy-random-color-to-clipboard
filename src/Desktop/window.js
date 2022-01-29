@@ -1,5 +1,4 @@
 const {app, BrowserWindow, clipboard} = require('electron');
-const fs = require('fs');
 
 function createWindow() {
     const win = new BrowserWindow({
@@ -15,6 +14,3 @@ app.whenReady().then(() => {
     createWindow();
 });
 
-// Write to clipboard
-//clipboard.writeText(color);
-//console.log(color);
