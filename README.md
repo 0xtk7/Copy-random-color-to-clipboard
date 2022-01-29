@@ -4,5 +4,5 @@
 ## Screen
 ![img](https://i.imgur.com/zYtIGDt.png)
 
-## Message when "Copy to clipboard" is clicked
+## Message when "Copy color to clipboard" is clicked
 ![img](https://i.imgur.com/20105jq.png)
