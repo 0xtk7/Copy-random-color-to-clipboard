@@ -4,7 +4,7 @@
   "description": "> ## This program will get a random color code and copy to clipboard",
   "main": "window.js",
   "scripts": {
-    "start": "electron ."
+    "start": "start run.bat"
   },
   "repository": {
     "type": "git",

@@ -7,11 +7,12 @@ function randomColor() {
     root.style.setProperty('--BackgroundColor', color);
 }
 
-// copy background color
+// Copy background color (Electron)
 function getColor() {
     var content = root.style.getPropertyValue('--BackgroundColor').toUpperCase();
-    navigator.clipboard.writeText(content);
-    alert('Copied '+content+' to clipboard!');
+    content = content.replace('#', ''); // Remove hashtag
+    fetch(`http://localhost:8080/?color=`+content).then(
+        alert('Copied '+'#' +content+' to clipboard!')
+    );
 }
-
 
