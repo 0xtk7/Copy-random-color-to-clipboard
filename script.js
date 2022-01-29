@@ -15,10 +15,4 @@ function getColor() {
     alert('Copied '+content+' to clipboard!');
 }
 
-// Check for mobile
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    alert('Mobile detected');
-}else{
-    return;
-}
 
