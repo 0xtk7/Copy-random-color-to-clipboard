@@ -6,3 +6,5 @@
 > Color on the screen is randomised
 ## Message when "Copy color to clipboard" is clicked
 ![img](https://i.imgur.com/20105jq.png)
+
+> ### [GitHub Pages site: ](https://0xtk7.github.io/Copy-random-color-to-clipboard/)
