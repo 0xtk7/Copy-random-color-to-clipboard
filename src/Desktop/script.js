@@ -11,7 +11,7 @@ function randomColor() {
 function getColor() {
     var content = root.style.getPropertyValue('--BackgroundColor').toUpperCase();
     content = content.replace('#', ''); // Remove hashtag
-    fetch(`http://localhost:8080/?color=`+content).then(
+    fetch(`http://localhost:3000/?color=`+content).then(
         alert('Copied '+'#' +content+' to clipboard!')
     );
 }

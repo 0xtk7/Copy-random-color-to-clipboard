@@ -1,14 +1,11 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
+const http = require('http');
 
 app.get('/', (req, res) => {
     function write() {
-        var data = [
-            JSON.stringify('#'+color)
-        ]
-
-        fs.writeFile('color.json',data, (err) => {
+        fs.writeFile('color.json',JSON.stringify('#'+color), (err) => {
             if (err) console.error(err);
         });
     }
@@ -17,6 +14,7 @@ app.get('/', (req, res) => {
     console.log('#' + color);
     write();
 });
+
 // JSON.stringify('color') +':'+JSON.stringify('#'+color)
 app.listen(3000, (err) => {
     if (err) {
