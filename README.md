@@ -10,4 +10,4 @@
 > ## [GitHub Pages site](https://0xtk7.github.io/Copy-random-color-to-clipboard/)
 
 ## Disclaimer
-> The GitHub Pages site works on moblie devices but it is not optimised for them.
+> Although the GitHub Pages site works on moblie devices, it is poorly optimised for them.
