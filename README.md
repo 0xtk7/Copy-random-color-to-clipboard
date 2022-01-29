@@ -8,6 +8,3 @@
 ![img](https://i.imgur.com/20105jq.png)
 
 > ## [GitHub Pages site](https://0xtk7.github.io/Copy-random-color-to-clipboard/)
-
-## Disclaimer: 
-> The GitHub Pages site works on moblie devices but it is not optimised for them.
