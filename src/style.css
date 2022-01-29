@@ -1,0 +1,42 @@
+:root {
+    --BackgroundColor: #fff;
+}
+
+body {
+    background: var(--BackgroundColor);
+}
+
+#buttons {
+    text-align: center;
+    opacity: 1;
+}
+
+#rnd,
+#btn {
+    color: white;
+    background: #181818;
+    margin-top: 45%;
+    width: 30%;
+    height: 40px;
+    border-radius: 25em;
+    border: none;
+}
+
+#btn {
+    margin: 5px;
+}
+
+#rnd:hover,
+#btn:hover {
+    cursor: pointer;
+    animation: hover 0.5s forwards;
+}
+
+/*
+#color {
+
+}
+*/
+@keyframes hover {
+    100% {opacity: 0.8;}
+}
